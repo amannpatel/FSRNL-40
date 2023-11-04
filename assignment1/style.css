@@ -13,7 +13,6 @@ body {
 
 .navbar {
   background-color: #22d3ee;
-  color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,6 +28,8 @@ body {
 
 .list-item {
   list-style: none;
+  margin: 5px;
+  padding: 8px;
 }
 
 .link {
@@ -37,5 +38,36 @@ body {
 
 .list-item,
 .link {
+  color: #475569;
+}
+
+.brand-logo {
+  margin: 5px;
+  padding: 8px;
+}
+
+.brand-logo,
+.link:hover {
+  color: #cffafe;
+}
+
+.footer-section {
+  height: 200px;
+  background-color: #083344;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-menu,
+.link,
+p {
   color: #fff;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
